@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { url } from "@/lib/metadata";
 import Share from "@/components/share";
 
@@ -83,7 +83,6 @@ export default function SlotMachine() {
           <p>Congratulations! You won!</p>
           <Share
             text={`I won the slot machine! ${url}`}
-            url={url}
           />
         </div>
       )}
